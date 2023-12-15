@@ -84,7 +84,7 @@ body {
 .box:hover .login{
     inset: 20px;
 }
-.loginbx{
+.login_box{
     position: relative;
     align-items: center;
     justify-content: center;
@@ -95,16 +95,16 @@ body {
     transition: 0.5s;
     transform: translateY(145px);
 }
-.loginbx h1{
+.login_box h1{
     text-transform: uppercase;
     font-weight: 500;
     font-size: 28px;
     display: block;
 }
-.box:hover .loginbx{
+.box:hover .login_box{
     transform: translateY(0);
 }
-.loginbx input{
+.login_box input{
     width: 100%;
     padding: 10px 20px;
     outline: none;
@@ -116,10 +116,10 @@ body {
     background: #0000009a;
     margin: 20px 0;
 }
-.loginbx input::placeholder{
+.login_box input::placeholder{
     color: #999;
 }
-.loginbx input[type="submit"] {
+.login_box input[type="submit"] {
     background: #0b93a5;
     border: none;
     outline: none;
@@ -127,7 +127,7 @@ body {
     transition: 0.5s;
     color: #111;
 }
-.loginbx input[type="submit"]:hover{
+.login_box input[type="submit"]:hover{
     box-shadow: 0 0 10px #43d4e7,
     0 0 60px #43d4e7;
 }
