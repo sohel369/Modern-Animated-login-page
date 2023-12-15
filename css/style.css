@@ -93,7 +93,7 @@ body {
     gap: 20px;
     width: 70%;
     transition: 0.5s;
-    transform: translateY(120px);
+    transform: translateY(145px);
 }
 .loginbx h1{
     text-transform: uppercase;
@@ -114,6 +114,7 @@ body {
     border-radius: 30px;
     border: 2px solid white;
     background: #0000009a;
+    margin: 20px 0;
 }
 .loginbx input::placeholder{
     color: #999;
